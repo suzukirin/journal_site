@@ -7,12 +7,11 @@
 
 <h1>投稿論文編集</h1>
 
-<form action="/articles/{{ $article->id }}" metod='post'>
-<form action="/articles" method="post"> 
+
     @csrf
     <p>
         論文タイトル<br>
-        <input type="text" name="title" value="{{ $article->title}}">
+        <input type="text" name="title" value="{{ $article->title }}">
     </p>
     <p>
         本文<br>

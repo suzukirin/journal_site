@@ -2,8 +2,8 @@
 
     @foreach ($articles as $article)
         <!-- // リンク先をidで取得し名前で出力 -->
-        <a href="/articles/{{ $article->id }}">{{ $article->title }}</a><br>
-        <br>
+        <p><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></p>
+        
     @endforeach
 
 
