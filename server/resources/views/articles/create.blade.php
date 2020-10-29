@@ -7,7 +7,7 @@
     </p>
     <p>
         本文<br>
-        <textarea type="body" name="body" value="{{ old('body') }}"></textarea>
+        <textarea> {{ old('body') }}</textarea>
     </p>   
     <input type="submit" value="投稿">
 </form>
